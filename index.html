@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>StudyDeck</title>
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="StudyDeck"><meta name="theme-color" content="#f4f8ee">
+<html lang="en"><head><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="StudyDeck"><meta name="theme-color" content="#f4f8ee"><meta charset="utf-8"><title>StudyDeck</title>
+  <link rel="manifest" href="manifest.json">
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
+
 <style>
 :root{--bg:#2a1b12;--pn:#3d2a1d;--pn2:#35241a;--ln:#6e4d36;--tx:#2b3d1c;--mu:#e2c4b8;--ac:#3f5a24;--ac2:#ffffff;--ok:#e8c286}
 *{box-sizing:border-box;margin:0}
