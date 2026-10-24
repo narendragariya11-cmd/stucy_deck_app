@@ -1,0 +1,17 @@
+{
+  "short_name": "StudyDeck",
+  "name": "Study Deck Mobile App",
+  "icons": [
+    {
+      "src": "https://w3.org",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#ffffff",
+  "theme_color": "#02a1b1",
+  "display": "standalone",
+  "orientation": "portrait"
+}
